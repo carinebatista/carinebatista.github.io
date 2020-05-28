@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 #container {
