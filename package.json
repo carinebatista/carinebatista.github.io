@@ -1,0 +1,24 @@
+{
+  "name": "carine.me",
+  "version": "1.0.0",
+  "description": "Hello Everyone! This is my website! :) Enjoy!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carinebatista/carinebatista.github.io.git"
+  },
+  "author": "carine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carinebatista/carinebatista.github.io/issues"
+  },
+  "homepage": "https://github.com/carinebatista/carinebatista.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  }
+}
