@@ -1,2 +1,5 @@
-# carinebatista.github.io
-Hello Everyone! This is my website! :) Enjoy! 
+# My personal Website
+
+It's me, Carine! 👋
+
+This is my personal [website](https://carinebatista.github.io/)! 
