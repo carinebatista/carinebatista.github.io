@@ -52,65 +52,10 @@ body {
   margin-top: -.25em
 }
 
-#hamburguer-menu {
-  display: none;
-}
-.ui-hamburger-01 {
-  display: inline-block;
-  width: 30px;
-  height: 26px;
-  border: none;
-  position: relative;
-  background: linear-gradient(to bottom, #2980b9, #2980b9);
-  background-size: 100% 20%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  transition: background-size 0.2s 0.25s ease;
-  cursor: pointer;
-}
-.ui-hamburger-01:before,
-.ui-hamburger-01:after {
-  height: 20%;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  background-color: #2980b9;
-  content: '';
-  transition: transform 0.3s ease;
-}
-.ui-hamburger-01:before {
-  top: 0;
-  transform-origin: 9% 150%;
-}
-.ui-hamburger-01:after {
-  bottom: 0;
-  transform-origin: 9% -50%;
-}
-#hamburguer-menu:checked ~ .ui-hamburger-01 {
-  background-size: 0 20%;
-  transition-delay: 0s;
-}
-#hamburguer-menu:checked ~ .ui-hamburger-01:before {
-  transform: rotate(45deg);
-  transition-delay: 0.15s;
-}
-#hamburguer-menu:checked ~ .ui-hamburger-01::after {
-  transform: rotate(-45deg);
-  transition-delay: 0.15s;
+.navbar-toggler{
+  border:none;
 }
 
-.hamburguer-menu-content {
- visibility: hidden;
- opacity: 0;
-  transition: .2s ease-in;
-  transform: translateX(-10px);
-}
-
-#hamburguer-menu:checked ~ .hamburguer-menu-content {
-  visibility: visible;
-  opacity: 1;
-  transform: translateX(0);
-}
 
 .fa-sass{
   color: hotpink;
