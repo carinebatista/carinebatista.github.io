@@ -1,7 +1,7 @@
 {
-  "name": "carine.me",
+  "name": "carine.dev",
   "version": "1.0.0",
-  "description": "Hello Everyone! I'm Carine, and this is my website! :) Enjoy!",
+  "description": "Hello Everyone! I'm Carine, and this is my personal website! :)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
